@@ -13,14 +13,8 @@ public class Piece {
 	protected Board getBoard() {
 		return board;
 	}
- 
-	public Piece[][] possibleMoves(){
-		
-		Piece[][] moves= new Piece[1][1];
-		
-		return moves;
-	}
 	
+	/*
 	public boolean possibleMove(Position position) {
 		return true;
 	}
@@ -29,5 +23,5 @@ public class Piece {
 		return true;
 	}
 	
-	
+	*/
 }
